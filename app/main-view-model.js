@@ -1,4 +1,5 @@
 import { Observable } from '@nativescript/core';
+import { WebView } from 'tns-core-modules/ui/web-view';
 
 function getMessage(counter) {
   if (counter <= 0) {
